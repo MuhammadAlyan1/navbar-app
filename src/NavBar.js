@@ -10,7 +10,6 @@ function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   function clickBurgerBtn() {
-    console.log(isOpen);
     setIsOpen(!isOpen);
   }
 
